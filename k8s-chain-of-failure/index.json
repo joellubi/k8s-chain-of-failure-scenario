@@ -1,0 +1,22 @@
+{
+    "title": "Kubernetes Chain of Failure",
+    "description": "This is the description",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Exec the uploaded script",
+          "text": "step1.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {}
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }

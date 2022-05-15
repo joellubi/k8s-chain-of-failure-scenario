@@ -1,1 +1,1 @@
-# k8s-chain-of-failure-scenario
+# killercoda-scenarios
