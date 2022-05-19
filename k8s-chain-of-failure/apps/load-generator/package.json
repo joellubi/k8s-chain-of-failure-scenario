@@ -1,7 +1,7 @@
 {
   "name": "load-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic http request load generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
