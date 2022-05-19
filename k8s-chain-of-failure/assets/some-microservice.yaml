@@ -35,3 +35,26 @@ spec:
   selector:
     app: some-microservice
   type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: load-generator
+  name: load-generator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: load-generator
+  template:
+    metadata:
+      labels:
+        app: load-generator
+    spec:
+      containers:
+      - image: joellubi/k8s-chain-of-failure-load-generator
+        name: k8s-chain-of-failure-load-generator
+        env:
+        - name: REQUESTS_PER_MINUTE
+          value: "10"
