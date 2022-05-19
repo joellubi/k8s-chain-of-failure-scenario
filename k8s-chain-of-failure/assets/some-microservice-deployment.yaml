@@ -1,0 +1,21 @@
+kind: Deployment
+metadata:
+  labels:
+    app: some-microservice
+  name: some-microservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: some-microservice
+  template:
+    metadata:
+      labels:
+        app: some-microservice
+    spec:
+      containers:
+      - image: joellubi/k8s-chain-of-failure-server
+        name: k8s-chain-of-failure-server
+        env:
+        - name: AVERAGE_REQUESTS_UNTIL_FAILURE
+          value: "10"

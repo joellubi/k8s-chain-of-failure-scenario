@@ -1,6 +1,6 @@
 {
     "title": "Kubernetes Chain of Failure",
-    "description": "This is the description",
+    "description": "This is the description v2",
     "details": {
       "intro": {
         "text": "intro.md"
@@ -16,7 +16,8 @@
       },
       "assets": {
         "host01": [
-          {"file": "my-server.yaml", "target": "/my/location", "chmod": "+rw"}
+          {"file": "my-server.yaml", "target": "/my/location", "chmod": "+rw"},
+          {"file": "some-microservice-deployment.yaml", "target": "assets", "chmod": "+rw"}
         ]
       }
     },
