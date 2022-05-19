@@ -19,3 +19,18 @@ spec:
         env:
         - name: AVERAGE_REQUESTS_UNTIL_FAILURE
           value: "10"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: some-microservice
+  name: some-microservice
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 3000
+  selector:
+    app: some-microservice
+  type: ClusterIP

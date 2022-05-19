@@ -17,7 +17,7 @@
       "assets": {
         "host01": [
           {"file": "my-server.yaml", "target": "/my/location", "chmod": "+rw"},
-          {"file": "some-microservice-deployment.yaml", "target": "/assets", "chmod": "+rw"}
+          {"file": "some-microservice.yaml", "target": "/assets", "chmod": "+rw"}
         ]
       }
     },
