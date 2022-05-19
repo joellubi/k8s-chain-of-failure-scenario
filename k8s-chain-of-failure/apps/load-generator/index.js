@@ -1,4 +1,4 @@
-const https = require('https');
+const https = require('http');
 
 
 const REQUESTS_PER_MINUTE = process.env.REQUESTS_PER_MINUTE || 100
