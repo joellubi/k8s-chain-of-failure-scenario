@@ -14,7 +14,11 @@
       "finish": {
         "text": "finish.md"
       },
-      "assets": {}
+      "assets": {
+        "host01": [
+          {"file": "my-server.yaml", "target": "/my/location", "chmod": "+rw"}
+        ]
+      }
     },
     "backend": {
       "imageid": "kubernetes-kubeadm-2nodes"

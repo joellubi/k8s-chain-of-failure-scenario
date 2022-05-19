@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-server
+spec:
+  containers:
+  - image: joellubi/k8s-chain-of-failure-server
+    name: my-server
+    env:
+    - name: AVERAGE_REQUESTS_UNTIL_FAILURE
+      value: 10
