@@ -2,8 +2,10 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY package.json package-lock.json index.js ./
+COPY package.json package-lock.json ./
 
 RUN npm install
+
+COPY index.js ./
 
 CMD ["index.js"]
