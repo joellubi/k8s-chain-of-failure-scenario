@@ -1,6 +1,6 @@
 {
     "title": "Kubernetes Chain of Failure",
-    "description": "This is the description v2",
+    "description": "Simulate Various Failure Modes for an App and Observe How Kubernetes Recovers from Each",
     "details": {
       "intro": {
         "text": "intro.md"
