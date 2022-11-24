@@ -6,8 +6,5 @@ This scenario involves a replicated microservice and a load-generator targeting 
 ### Tear down the scenario by running
 `kubectl delete -f /assets/scenario.yaml`
 
-### You may edit various parameters of the manifest with
-`vi /assets/scenario.yaml`
 
-
-See the next page for more details regarding the parameters that may be configured.
+See the next page for details on how configure the scenario.

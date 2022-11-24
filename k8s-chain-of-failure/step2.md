@@ -1,3 +1,6 @@
+### The scenario can be customized
+`vi /assets/scenario.yaml`
+
 ### Play around with any of the following parameters
 ```yaml{8,27,29,31,33,78,80}
 apiVersion: apps/v1
