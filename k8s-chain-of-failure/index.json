@@ -7,8 +7,12 @@
       },
       "steps": [
         {
-          "title": "Exec the uploaded script",
+          "title": "Deploy the scenario",
           "text": "step1.md"
+        },
+        {
+          "title": "Configure the scenario",
+          "text": "step2.md"
         }
       ],
       "finish": {
