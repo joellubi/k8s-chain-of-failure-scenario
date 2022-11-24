@@ -16,7 +16,6 @@
       },
       "assets": {
         "host01": [
-          {"file": "my-server.yaml", "target": "/my/location", "chmod": "+rw"},
           {"file": "scenario.yaml", "target": "/assets", "chmod": "+rw"}
         ]
       }
